@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>cuckoo-bad-actors</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<script src="index.js"></script>
+
+  <h1>cuckoo-bad-actor</h1>
+
+  <center>
+    <img src="https://i.pinimg.com/originals/b7/ac/f5/b7acf57abed5879e3fc51d17e59d874a.jpg" width="150" height="150"/>
+  </center>
+  <p>This service helps you deal with <i>bad actors</i>.</p>
+  <p>When you enter a name and click 'Check' your answer will be:
+  <ul>
+    <li><b>False</b> which means for sure they are <b>not</b> a bad actor.</li>
+    <i>or</i>
+    <li><b>True</b>They might be a <i>bad actor</i>.</li>
+  </ul>
+  </p>
+  <p>You can also enter new, count, and remove bad actors.</p>
+
+  <table>
+  <tr>
+    <td>
+      <form action="/check">
+        <label for="name">Check if someone is a bad actor:</label><br>
+        <input type="text" id="name" name="name" value=""><br>
+        <input type="submit" value="CHECK">
+      </form>
+    </td>
+    <td>
+      <form action="/count">
+        <label for="name">Count how many times bad actor reported:</label><br>
+        <input type="text" id="name" name="name" value=""><br>
+        <input type="submit" value="COUNT">
+      </form>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <form action="/addbad">
+        <label for="name">Add a new bad actor::</label><br>
+        <input type="text" id="name" name="name" value=""><br>
+        <input type="submit" value="ADD">
+      </form>
+    </td>
+    <td>
+      <form action="/remove">
+        <label for="name">Remove bad actor::</label><br>
+        <input type="text" id="name" name="name" value=""><br>
+        <input type="submit" value="REMOVE">
+      </form>
+    </td>
+  </td>
+  </table>
+  </body>
+</html>
