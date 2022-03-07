@@ -12,9 +12,7 @@
 
   <h1>cuckoo-bad-actor</h1>
 
-  <center>
-    <img src="https://i.pinimg.com/originals/b7/ac/f5/b7acf57abed5879e3fc51d17e59d874a.jpg" width="150" height="150"/>
-  </center>
+  <img src="https://i.pinimg.com/originals/b7/ac/f5/b7acf57abed5879e3fc51d17e59d874a.jpg" width="150" height="150"/>
   <p>This service helps you deal with <i>bad actors</i>.</p>
   <p>When you enter a name and click 'Check' your answer will be:
   <ul>
@@ -25,19 +23,19 @@
   </p>
   <p>You can also enter new, count, and remove bad actors.</p>
 
-  <table>
+  <table cellpadding="15px">
   <tr>
     <td>
       <form action="/check">
-        <label for="name">Check if someone is a bad actor:</label><br>
-        <input type="text" id="name" name="name" value=""><br>
+          <label for="name">Check if someone is a bad actor:</label><br/>
+        <input type="text" id="name" name="name" value="">
         <input type="submit" value="CHECK">
       </form>
     </td>
     <td>
       <form action="/count">
-        <label for="name">Count how many times bad actor reported:</label><br>
-        <input type="text" id="name" name="name" value=""><br>
+          <label for="name">Count how many times bad actor reported:</label><br/>
+        <input type="text" id="name" name="name" value="">
         <input type="submit" value="COUNT">
       </form>
     </td>
@@ -45,15 +43,15 @@
   <tr>
     <td>
       <form action="/addbad">
-        <label for="name">Add a new bad actor::</label><br>
-        <input type="text" id="name" name="name" value=""><br>
+          <label for="name">Add a new bad actor:</label><br/>
+        <input type="text" id="name" name="name" value="">
         <input type="submit" value="ADD">
       </form>
     </td>
     <td>
       <form action="/remove">
-        <label for="name">Remove bad actor::</label><br>
-        <input type="text" id="name" name="name" value=""><br>
+          <label for="name">Remove bad actor:</label><br/>
+        <input type="text" id="name" name="name" value="">
         <input type="submit" value="REMOVE">
       </form>
     </td>
